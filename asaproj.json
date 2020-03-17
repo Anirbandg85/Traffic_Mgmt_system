@@ -1,0 +1,30 @@
+{
+    "name": "strmanltycjob1",
+    "startFile": "Transformation.asaql",
+    "configurations": [
+        {
+            "filePath": "Configuration.json",
+            "subType": "JobConfig"
+        },
+        {
+            "filePath": "Inputs/iothubinput1.json",
+            "subType": "Input"
+        },
+        {
+            "filePath": "Outputs/fileoutput.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/iotoutput1.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Inputs/Local_inputfile1.json",
+            "subType": "InputMock"
+        },
+        {
+            "filePath": "Inputs/inputfile.json",
+            "subType": "Input"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "iothubinput1",
+    "Type": "Data Stream",
+    "DataSourceType": "IoT Hub",
+    "IoTHubProperties": {
+        "IotHubNamespace": "Hub1IOT",
+        "SharedAccessPolicyName": "iothubowner",
+        "ConsumerGroupName": "$Default",
+        "Endpoint": "messages/events",
+        "SharedAccessPolicyKey": null
+    },
+    "PartitionKey": null,
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8",
+        "FieldDelimiter": null
+    },
+    "CompressionType": "None",
+    "ScriptType": "Input"
+}

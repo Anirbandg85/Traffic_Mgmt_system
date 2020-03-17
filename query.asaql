@@ -1,0 +1,6 @@
+SELECT
+    *
+INTO
+    fileoutput
+FROM
+    inputfile1

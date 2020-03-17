@@ -1,0 +1,7 @@
+{
+    "InputAlias": "inputfile1",
+    "Type": "Reference data",
+    "Format": "CSV",
+    "FilePath": "D:/CODE/strmanltycjob1/Inputs/inputfile1",
+    "ScriptType": "InputMock"
+}

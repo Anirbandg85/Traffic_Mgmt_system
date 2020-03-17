@@ -1,0 +1,24 @@
+{
+    "Name": "inputfile1",
+    "Type": "Reference data",
+    "DataSourceType": "Blob Storage",
+    "BlobReferenceProperties": {
+        "StorageAccounts": [
+            {
+                "AccountName": "stg1acc",
+                "AccountKey": null
+            }
+        ],
+        "Container": "cntr1",
+        "PathPattern": "",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "HH"
+    },
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8",
+        "FieldDelimiter": null
+    },
+    "ScriptType": "Input"
+}

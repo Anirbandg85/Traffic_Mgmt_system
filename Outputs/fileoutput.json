@@ -1,0 +1,25 @@
+{
+    "Name": "fileoutput",
+    "DataSourceType": "Blob Storage",
+    "BlobStorageProperties": {
+        "StorageAccounts": [
+            {
+                "AccountName": "stg1acc",
+                "AccountKey": null
+            }
+        ],
+        "Container": "cntr1",
+        "PathPattern": "",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "HH",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Csv",
+        "FieldDelimiter": ",",
+        "Encoding": "UTF8",
+        "Format": null
+    },
+    "ScriptType": "Output"
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "iotoutput1",
+    "DataSourceType": "Blob Storage",
+    "BlobStorageProperties": {
+        "StorageAccounts": [
+            {
+                "AccountName": "stg1acc",
+                "AccountKey": null
+            }
+        ],
+        "Container": "cntr1",
+        "PathPattern": "",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "HH",
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8",
+        "Format": "LineSeparated",
+        "FieldDelimiter": null
+    },
+    "ScriptType": "Output"
+}
